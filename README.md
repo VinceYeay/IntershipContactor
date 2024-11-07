@@ -14,7 +14,7 @@ To get your google email password please visit: [https://www.google.com/url?sa=t
 
 # Transform the query given to Openai to fit your needs
 
-# Encode your pdf file in Base 64 to give it to OpenAi [https://pdf2png.com]
+# Encode your pdf file in Base 64 to give it to OpenAi [https://pdf2png.com] [https://www.base64-image.de]
 
 
 
