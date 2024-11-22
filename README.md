@@ -33,7 +33,7 @@ Search for `#TODO` in the code and update:
 
 ## Poppler Installation
 
-If you encounter difficulties with `poppler`, install it using the following command:
+If you encounter difficulties with `poppler`, install it using the following command in cmd(admin):
 
 ```bash
 choco install poppler
