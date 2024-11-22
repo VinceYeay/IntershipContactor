@@ -1,26 +1,39 @@
 # InternshipContactor
 
-# ONLY WORKS WITH 1 PAGE CV</br>
+## Overview
 
-# Your .env needs to contain </br>
-  1.OPENAI_API_KEY=key </br>
-  2.EMAIL_USER={YourGoogleEmail} </br>
-  3.EMAIL_PASSWORD={GoogleAppPassword} </br>
+A simple Python project to automate sending resumes to multiple companies using a touch of AI. This project demonstrates how to integrate OpenAI's API and improve Python skills while managing job applications.
 
-To get your google email password please visit: [https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwirwvnE-MGJAxVDEVkFHQXIKkAQFnoECBsQAQ&url=https%3A%2F%2Fmyaccount.google.com%2Fapppasswords&usg=AOvVaw1rVibBR6kQTiUjqa0l_f8W&opi=89978449](https://myaccount.google.com/apppasswords?usg=AOvVaw1rVibBR6kQTiUjqa0l_f8W&opi=89978449)
+---
 
-# Please update at the top of the code (PLEASE SEARCH FOR #TODO IN CODE): 
-  1.Your name </br>
-  2.Path to the Excel containing (Company_Name, Email) </br>
-  3.Path to your CV (resumer) in pdf </br>
+## Requirements
 
-# Transform the query given to Openai to fit your needs
+Your `.env` file needs to contain the following:
+1. `OPENAI_API_KEY={Your OpenAI API Key}`
+2. `EMAIL_USER={Your Google Email}`
+3. `EMAIL_PASSWORD={Google App Password}`
 
+To get your Google email password, please visit:
+[Generate Google App Password](https://myaccount.google.com/apppasswords)
 
-Here is a little code your send resumer out to a lot of company using a bit of AI
+---
 
-Little project to learn how OpenAi Api works and get a bit better in Python
+## Setup Instructions
 
-This project was made by VINCENT KARA 
+### Update the Following in the Code
+Search for `#TODO` in the code and update:
+1. **Your Name**: Enter your full name where required.
+2. **Path to Excel File**: Provide the path to your Excel file containing the following columns:
+   - `Company_Name`
+   - `Email`
+3. **Path to Your CV**: Specify the path to your CV (in PDF format).  
+   **Note:** This project works only with single-page CVs.
 
-Thank you
+---
+
+## Poppler Installation
+
+If you encounter difficulties with `poppler`, install it using the following command:
+
+```bash
+choco install poppler
